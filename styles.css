@@ -1,0 +1,41 @@
+/* Mobile styles */
+@media (max-width: 768px) {
+    body {
+      font-size: 16px;
+    }
+  
+    header, main, footer {
+      padding: 1rem;
+    }
+  
+    nav {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      align-items: flex-start;
+    }
+  
+    nav a {
+      margin-left: 0;
+    }
+  
+    main {
+      padding: 1rem;
+    }
+  
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+.tags {
+    margin: 1rem;
+}
+.tags span {
+    background-color: #003366;
+    color: white;
+    padding: 0.3rem 0.6rem;
+    margin-right: 0.5rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}  
